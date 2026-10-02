@@ -1,0 +1,41 @@
+# Formulaire « Proposer une espèce » du dépôt public du catalogue.
+# L'appli AquasManager ouvre ce formulaire prérempli : les paramètres de
+# l'adresse reprennent les « id » ci-dessous (ne pas les renommer).
+name: Proposer une espèce
+description: Ajouter un poisson, un corail, une plante ou un invertébré au catalogue commun d'AquasManager
+title: "[Espèce] "
+labels: ["espèce", "proposition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Les valeurs servent à pré-remplir les fiches : indicatives, elles seront relues avant l'ajout.
+  - type: input
+    id: kind
+    attributes:
+      label: Type
+      description: poisson, corail, plante ou invertébré
+    validations:
+      required: true
+  - type: input
+    id: common_name
+    attributes:
+      label: Nom courant
+    validations:
+      required: true
+  - type: input
+    id: scientific_name
+    attributes:
+      label: Nom scientifique
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Caractéristiques
+      description: Famille, origine, besoins (lumière, brassage, température), taille, volume, compatibilité récif…
+  - type: textarea
+    id: note
+    attributes:
+      label: Message
+      description: Source, remarques (facultatif)
