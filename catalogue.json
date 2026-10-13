@@ -1013,7 +1013,7 @@
       "family": "Euphylliidae",
       "origin": "Indo-Pacifique",
       "light_min": 4,
-      "light_max": 10,
+      "light_max": 6,
       "brewing_min": 2,
       "brewing_max": 5,
       "aggressiveness_level": 5,
