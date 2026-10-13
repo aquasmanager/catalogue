@@ -1458,6 +1458,20 @@
       "aggressiveness_level": 3,
       "resistance_level": 5,
       "location_level": 8
+    },
+    {
+      "common_name": "Platygyra Goblin Fire",
+      "scientific_name": "Platygyra sp.",
+      "family": "Merulinidae",
+      "origin": "Indo-Pacifique",
+      "type": "LPS",
+      "light_min": 3,
+      "light_max": 6,
+      "brewing_min": 2,
+      "brewing_max": 4,
+      "aggressiveness_level": 6,
+      "resistance_level": 6,
+      "location_level": 3
     }
   ],
   "plants": [
