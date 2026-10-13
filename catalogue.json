@@ -1444,6 +1444,20 @@
       "aggressiveness_level": 3,
       "resistance_level": 5,
       "location_level": 4
+    },
+    {
+      "common_name": "Acropora Nightshade",
+      "scientific_name": "Acropora sp.",
+      "family": "Acroporidae",
+      "origin": "Indo-Pacifique",
+      "type": "SPS",
+      "light_min": 5,
+      "light_max": 8,
+      "brewing_min": 8,
+      "brewing_max": 10,
+      "aggressiveness_level": 3,
+      "resistance_level": 5,
+      "location_level": 8
     }
   ],
   "plants": [
