@@ -1472,6 +1472,20 @@
       "aggressiveness_level": 6,
       "resistance_level": 6,
       "location_level": 3
+    },
+    {
+      "common_name": "Micromussa Lordhowensis",
+      "scientific_name": "Micromussa",
+      "family": "Lobophylliidae",
+      "origin": "Indo-Pacifique",
+      "type": "LPS",
+      "light_min": 1,
+      "light_max": 2,
+      "brewing_min": 1,
+      "brewing_max": 4,
+      "aggressiveness_level": 3,
+      "resistance_level": 6,
+      "location_level": 1
     }
   ],
   "plants": [
